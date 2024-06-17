@@ -1,0 +1,67 @@
+body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/spiderman-miles-morales-animated-4k-5x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    position: relative;
+    top: 0px;
+    display: flex;
+    list-style: none;
+    margin: -15px;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li{
+    margin: 25px;
+    font-size: large;
+    color: white;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 4px 24px;
+    cursor: pointer;
+}
+
+.info{
+    position: absolute;
+    left: 65%;
+    top: 30%;
+    height: 370px;
+    width: 400px;
+    color: aliceblue;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+
+.info img{
+    position: relative;
+    top: 22px;
+    left: 130px;
+    height: 123px;
+    width: 134px;
+    border-radius: 50%;
+}
+.info p{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.info input{
+    position: relative;
+    top: 60px;
+    left: 60px;
+    padding:  12px 120px;
+    border-radius: 12px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+}

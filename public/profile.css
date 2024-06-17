@@ -1,0 +1,136 @@
+.nav{
+    position: relative;
+    top: 0px;
+    display: flex;
+    list-style: none;
+    margin: -15px;
+
+}
+
+body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/spiderman-miles-morales-animated-4k-5x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav li{
+    margin: 25px;
+    font-size: large;
+    color: white;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 4px 24px;
+    cursor: pointer;
+}
+
+.image{
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+
+.image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.home{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    height: 220px;
+    width: 270px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+}
+.home img{
+    position: relative;
+    top: 23px;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.home h3{
+    position: relative;
+    top: 25px;
+    color: white;
+}
+
+.shop{
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    height: 220px;
+    width: 270px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.shop img{
+    position: relative;
+    top: 23px;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.shop h3{
+    position: relative;
+    top: 25px;
+    color: white;
+}
+
+.advise{
+    position: absolute;
+    top: 57%;
+    left: 60%;
+    height: 220px;
+    width: 270px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.advise img{
+    position: relative;
+    top: 23px;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.advise h3{
+    position: relative;
+    top: 25px;
+    color: white;
+}
+
+.search{
+    position: absolute;
+    top: 27%;
+    left: 35%;
+}
+
+.search input{
+    padding: 14px 150px;
+    border-radius: 12px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    justify-content: center;
+    text-align: center;
+}

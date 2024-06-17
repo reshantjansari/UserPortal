@@ -1,0 +1,63 @@
+.full{
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    height: 450px;
+    width: 452px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+
+body{
+    background-image: url("https://wallpaper.forfun.com/fetch/97/97f49b4f36a7f71e620e24ac5df9e39a.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full h1{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.first{
+    position: relative;
+    top: 34px;
+    left: 30px;
+    margin: 12px;
+}
+.first input{
+    padding: 12px 100px;
+    color: white;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    padding: 12px 100px;
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
+.first input::placeholder{
+    color: black;
+}
+
+.btn{
+    position: relative;
+    top: 39px;
+    left: 30px;
+    margin: 12px;
+}
+
+.btn input{
+    padding: 12px 156px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
